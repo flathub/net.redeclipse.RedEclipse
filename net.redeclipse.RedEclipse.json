@@ -1,7 +1,7 @@
 {
     "app-id": "net.redeclipse.RedEclipse",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.6",
+    "runtime-version": "18.08",
     "sdk": "org.freedesktop.Sdk",
     "finish-args": [
         "--device=dri",
@@ -31,6 +31,10 @@
                     "type": "archive",
                     "url": "https://github.com/red-eclipse/base/releases/download/v1.6.0/redeclipse_1.6.0_nix.tar.bz2",
                     "sha256": "48a947e858587116b7d177cf18148d0d9e40b1c5b481e2c955baed68cffc2849"
+                },
+                {
+                    "type": "patch",
+                    "path": "redeclipse.patch"
                 },
                 {
                     "type": "file",
