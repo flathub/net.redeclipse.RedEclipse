@@ -3,6 +3,9 @@
   <id>net.redeclipse.RedEclipse.desktop</id>
   <metadata_license>CC-BY-SA-3.0+</metadata_license>
   <project_license>Zlib and CC-BY-SA-3.0+</project_license>
+  <provides>
+    <id>redeclipse.desktop</id>
+  </provides>
   <name>Red Eclipse</name>
   <summary>First-person shooter with agile gameplay and built-in editor</summary>
   <description>
