@@ -24,17 +24,17 @@
         {
             "name": "redeclipse",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DWANT_DISCORD=0",
+                "-DWANT_STEAM=0"
+            ],
             "no-make-install": true,
             "subdir": "src",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/redeclipse/base/releases/download/v1.6.0/redeclipse_1.6.0_nix.tar.bz2",
-                    "sha256": "48a947e858587116b7d177cf18148d0d9e40b1c5b481e2c955baed68cffc2849"
-                },
-                {
-                    "type": "patch",
-                    "path": "redeclipse.patch"
+                    "url": "https://github.com/redeclipse/base/releases/download/v2.0.0/redeclipse_2.0.0_nix.tar.bz2",
+                    "sha256": "b15c14214e4b86c232828b39d3531fa9217b41bc695892f10166aef746387190"
                 },
                 {
                     "type": "file",
