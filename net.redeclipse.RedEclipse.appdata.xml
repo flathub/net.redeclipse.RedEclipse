@@ -72,7 +72,7 @@
     <release version="2.0.0" date="2019-12-19"/>
     <release version="1.6.0" date="2017-12-21"/>
   </releases>
-  <url type="bugtracker">https://github.com/red-eclipse/base/issues</url>
+  <url type="bugtracker">https://github.com/redeclipse/base/issues</url>
   <url type="donation">http://redeclipse.net/donate</url>
   <url type="help">http://redeclipse.net/faq</url>
 </component>
