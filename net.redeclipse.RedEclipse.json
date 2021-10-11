@@ -7,7 +7,8 @@
         "--device=all",
         "--share=ipc",
         "--share=network",
-        "--socket=x11",
+        "--socket=fallback-x11",
+        "--socket=wayland",
         "--socket=pulseaudio",
         /* Red Eclipse does not respect XDG base directories */
         "--persist=.redeclipse"
