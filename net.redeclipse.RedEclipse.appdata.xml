@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
-  <id>net.redeclipse.RedEclipse.desktop</id>
+<component type="desktop-application">
+  <id>net.redeclipse.RedEclipse</id>
   <metadata_license>CC-BY-SA-3.0+</metadata_license>
   <project_license>Zlib and CC-BY-SA-3.0+</project_license>
   <provides>
     <id>redeclipse.desktop</id>
   </provides>
+  <launchable type="desktop-id">net.redeclipse.RedEclipse.desktop</launchable>
   <name>Red Eclipse</name>
   <summary>First-person shooter with agile gameplay and built-in editor</summary>
   <description>
@@ -22,22 +23,21 @@
       <li>Builtin editor lets you create your own maps cooperatively online</li>
     </ul>
   </description>
-  <url type="homepage">http://redeclipse.net/</url>
+  <url type="homepage">https://redeclipse.net/</url>
   <screenshots>
     <screenshot type="default">
-      <image>http://redeclipse.net/bits/images/053.jpg</image>
+      <image>https://redeclipse.net/bits/images/053.jpg</image>
       <caption>Posing with fire on the map venus</caption>
     </screenshot>
     <screenshot>
-      <image>http://redeclipse.net/bits/images/045.jpg</image>
+      <image>https://redeclipse.net/bits/images/045.jpg</image>
       <caption>Mine fireworks on the map vault</caption>
     </screenshot>
     <screenshot>
-      <image>http://redeclipse.net/bits/images/019.jpg</image>
+      <image>https://redeclipse.net/bits/images/019.jpg</image>
       <caption>Overlooking friendly fire on the map cutec</caption>
     </screenshot>
   </screenshots>
-  <updatecontact>http://redeclipse.net/forum/</updatecontact>
   <developer_name>Red Eclipse Team</developer_name>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
