@@ -2,7 +2,7 @@ id: net.redeclipse.RedEclipse
 runtime: org.freedesktop.Platform
 runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
-command: redeclipse   
+command: redeclipse
 finish-args:
   - --device=all
   - --share=ipc
