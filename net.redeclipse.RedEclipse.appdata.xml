@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>net.redeclipse.RedEclipse</id>
+  <launchable type="desktop-id">net.redeclipse.RedEclipse.desktop</launchable>
   <metadata_license>CC-BY-SA-3.0+</metadata_license>
   <project_license>Zlib and CC-BY-SA-3.0+</project_license>
   <provides>
     <id>redeclipse.desktop</id>
   </provides>
-  <launchable type="desktop-id">net.redeclipse.RedEclipse.desktop</launchable>
   <name>Red Eclipse</name>
+  <developer_name>Red Eclipse Team</developer_name>
   <summary>First-person shooter with agile gameplay and built-in editor</summary>
   <description>
     <p>
       Red Eclipse is a fun-filled new take on the first person arena shooter,
-      based on the Tesseract game engine, which lends itself toward
-      a balanced gameplay, with a general theme of agility in a variety of
-      environments.
+      based on the Tesseract game engine, which lends itself toward a balanced
+      gameplay, with a general theme of agility in a variety of environments.
     </p>
     <ul>
       <li>Cross-platform multiplayer</li>
@@ -24,6 +24,9 @@
     </ul>
   </description>
   <url type="homepage">https://redeclipse.net/</url>
+  <url type="bugtracker">https://github.com/redeclipse/base/issues</url>
+  <url type="donation">https://redeclipse.net/donate</url>
+  <url type="help">https://redeclipse.net/faq</url>
   <screenshots>
     <screenshot type="default">
       <image>https://redeclipse.net/bits/images/053.jpg</image>
@@ -38,41 +41,13 @@
       <caption>Overlooking friendly fire on the map cutec</caption>
     </screenshot>
   </screenshots>
-  <developer_name>Red Eclipse Team</developer_name>
   <content_rating type="oars-1.1">
-    <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">moderate</content_attribute>
-    <content_attribute id="violence-realistic">none</content_attribute>
     <content_attribute id="violence-bloodshed">mild</content_attribute>
-    <content_attribute id="violence-sexual">none</content_attribute>
-    <content_attribute id="violence-desecration">none</content_attribute>
-    <content_attribute id="violence-slavery">none</content_attribute>
-    <content_attribute id="violence-worship">none</content_attribute>
-    <content_attribute id="drugs-alcohol">none</content_attribute>
-    <content_attribute id="drugs-narcotics">none</content_attribute>
-    <content_attribute id="drugs-tobacco">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="sex-themes">none</content_attribute>
-    <content_attribute id="sex-homosexuality">none</content_attribute>
-    <content_attribute id="sex-prostitution">none</content_attribute>
-    <content_attribute id="sex-adultery">none</content_attribute>
-    <content_attribute id="sex-appearance">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="language-humor">none</content_attribute>
-    <content_attribute id="language-discrimination">none</content_attribute>
     <content_attribute id="social-chat">intense</content_attribute>
-    <content_attribute id="social-info">none</content_attribute>
-    <content_attribute id="social-audio">none</content_attribute>
-    <content_attribute id="social-location">none</content_attribute>
-    <content_attribute id="social-contacts">none</content_attribute>
-    <content_attribute id="money-purchasing">none</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
     <release version="2.0.0" date="2019-12-19"/>
     <release version="1.6.0" date="2017-12-21"/>
   </releases>
-  <url type="bugtracker">https://github.com/redeclipse/base/issues</url>
-  <url type="donation">http://redeclipse.net/donate</url>
-  <url type="help">http://redeclipse.net/faq</url>
 </component>
