@@ -4,6 +4,9 @@
   <launchable type="desktop-id">net.redeclipse.RedEclipse.desktop</launchable>
   <metadata_license>CC-BY-SA-3.0+</metadata_license>
   <project_license>Zlib and CC-BY-SA-3.0+</project_license>
+  <provides>
+    <id>redeclipse.desktop</id>
+  </provides>
   <name>Red Eclipse</name>
   <developer_name>Red Eclipse Team</developer_name>
   <summary>First-person shooter with agile gameplay and built-in editor</summary>
@@ -38,7 +41,6 @@
       <caption>Overlooking friendly fire on the map cutec</caption>
     </screenshot>
   </screenshots>
-  <update_contact>https://redeclipse.net/forum/</update_contact>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-fantasy">moderate</content_attribute>
     <content_attribute id="violence-bloodshed">mild</content_attribute>
