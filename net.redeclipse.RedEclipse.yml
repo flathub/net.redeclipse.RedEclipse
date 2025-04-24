@@ -24,6 +24,11 @@ modules:
       - type: archive
         url: https://github.com/redeclipse/base/releases/download/v2.0.0/redeclipse_2.0.0_nix.tar.bz2
         sha256: b15c14214e4b86c232828b39d3531fa9217b41bc695892f10166aef746387190
+        x-checker-data:
+          type: anitya
+          project-id: 8261
+          stable-only: true
+          url-template: https://github.com/redeclipse/base/releases/download/v$version/redeclipse_$version_nix.tar.bz2
       - type: file
         url: https://raw.githubusercontent.com/redeclipse/base/master/src/install/nix/redeclipse.desktop.am
         sha256: 8060b6cfb23ebb191da0b3aa8267b156f0a3812ed7fea9266efecacbc9c962fe
