@@ -29,6 +29,7 @@ modules:
           project-id: 8261
           stable-only: true
           url-template: https://github.com/redeclipse/base/releases/download/v$version/redeclipse_$version_nix.tar.bz2
+          is-main-source: true
       - type: file
         url: https://raw.githubusercontent.com/redeclipse/base/master/src/install/nix/redeclipse.desktop.am
         sha256: 8060b6cfb23ebb191da0b3aa8267b156f0a3812ed7fea9266efecacbc9c962fe
