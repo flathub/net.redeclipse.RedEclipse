@@ -14,11 +14,16 @@ finish-args:
 modules:
 
   - name: redeclipse
-    buildsystem: cmake-ninja
+    no-autogen: true
+    no-make-install: true
+    build-options:
+      cflags: -O3 -fomit-frame-pointer
+      cflags-override: true
+      cxxflags: -O3 -fomit-frame-pointer -ffast-math -fno-finite-math-only
+      cxxflags-override: true
     config-opts:
       - -DWANT_DISCORD=0
       - -DWANT_STEAM=0
-    no-make-install: true
     subdir: src
     sources:
       - type: archive
