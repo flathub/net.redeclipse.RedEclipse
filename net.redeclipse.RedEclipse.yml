@@ -39,8 +39,14 @@ modules:
         path: net.redeclipse.RedEclipse.appdata.xml
       - type: file
         path: redeclipse.sh
+      - type: file
+        path: redeclipse_server.sh
+      - type: file
+        path: genkey.sh
     post-install:
       - install -Dm755 ../redeclipse.sh /app/bin/redeclipse
+      - install -Dm755 ../redeclipse_server.sh /app/bin/redeclipse_server
+      - install -Dm755 ../genkey.sh /app/bin/genkey
       - install -Dm755 redeclipse_linux /app/share/redeclipse/redeclipse
       - install -Dm755 redeclipse_server_linux /app/share/redeclipse/redeclipse_server
       - install -Dm755 genkey_linux /app/share/redeclipse/genkey
