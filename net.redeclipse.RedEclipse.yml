@@ -15,11 +15,14 @@ cleanup:
   - /include
   - /lib/cmake
   - /lib/pkgconfig
-  - '*.la'
-  - '*.a'
 modules:
 
   - name: sdl2_image
+    buildsystem: cmake-ninja
+    builddir: true
+    config-opts:
+      - -DSDL2IMAGE_DEPS_SHARED=OFF
+      - -DSDL2IMAGE_STRICT=ON
     sources:
       - type: archive
         url: https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.8/SDL2_image-2.8.8.tar.gz
