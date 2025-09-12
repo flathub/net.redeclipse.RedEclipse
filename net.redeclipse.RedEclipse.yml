@@ -12,7 +12,6 @@ finish-args:
   - --socket=pulseaudio
   - --persist=.redeclipse
 modules:
-
   - shared-modules/SDL2/SDL2_image.json
 
   - name: redeclipse
