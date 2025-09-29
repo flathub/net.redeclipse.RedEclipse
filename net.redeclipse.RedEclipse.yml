@@ -22,20 +22,11 @@ modules:
       cflags-override: true
       cxxflags: -O3 -fomit-frame-pointer -ffast-math -fno-finite-math-only
       cxxflags-override: true
-    config-opts:
-      - -DWANT_DISCORD=0
-      - -DWANT_STEAM=0
     subdir: src
     sources:
-      - type: archive
-        url: https://github.com/redeclipse/base/releases/download/v2.0.0/redeclipse_2.0.0_nix.tar.bz2
-        sha256: b15c14214e4b86c232828b39d3531fa9217b41bc695892f10166aef746387190
-        x-checker-data:
-          type: anitya
-          project-id: 8261
-          stable-only: true
-          url-template: https://github.com/redeclipse/base/releases/download/v$version/redeclipse_$version_nix.tar.bz2
-          is-main-source: true
+      - type: git
+        url: https://github.com/redeclipse/base.git
+        commit: 1d60865d9cf043fc0661c320c341d85f03268da6
       - type: file
         path: net.redeclipse.RedEclipse.appdata.xml
       - type: file
