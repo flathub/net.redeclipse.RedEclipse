@@ -28,7 +28,7 @@ modules:
         url: https://github.com/redeclipse/base.git
         commit: 1d60865d9cf043fc0661c320c341d85f03268da6
       - type: file
-        path: net.redeclipse.RedEclipse.appdata.xml
+        path: net.redeclipse.RedEclipse.metainfo.xml
       - type: file
         path: redeclipse.sh
       - type: file
@@ -43,7 +43,7 @@ modules:
       - install -Dm755 redeclipse_server_linux /app/share/redeclipse/redeclipse_server
       - install -Dm755 genkey_linux /app/share/redeclipse/genkey
       - cp -a ../config ../data /app/share/redeclipse
-      - install -Dm644 ../net.redeclipse.RedEclipse.appdata.xml /app/share/appdata/net.redeclipse.RedEclipse.appdata.xml
+      - install -Dm644 ../net.redeclipse.RedEclipse.metainfo.xml /app/share/metainfo/net.redeclipse.RedEclipse.metainfo.xml
       - install -Dm644 ../src/install/nix/redeclipse.desktop.am /app/share/applications/net.redeclipse.RedEclipse.desktop
       - install -Dm644 ../src/install/nix/redeclipse_x128.png /app/share/icons/hicolor/128x128/apps/net.redeclipse.RedEclipse.png
       - desktop-file-edit --set-icon=net.redeclipse.RedEclipse --set-key=Exec --set-value=redeclipse /app/share/applications/net.redeclipse.RedEclipse.desktop
