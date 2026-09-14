@@ -52,7 +52,7 @@ modules:
       - install -Dm755 ../genkey.sh /app/bin/genkey
       - install -Dm755 ../bin/amd64/redeclipse_linux /app/share/redeclipse/redeclipse
       - install -Dm755 ../bin/amd64/redeclipse_server_linux /app/share/redeclipse/redeclipse_server
-      - install -Dm755 genkey_linux /app/share/redeclipse/genkey
+      - install -Dm755 ../bin/amd64/genkey_linux /app/share/redeclipse/genkey
       - cp -a ../config ../data /app/share/redeclipse
       - install -Dm644 ../net.redeclipse.RedEclipse.metainfo.xml /app/share/metainfo/net.redeclipse.RedEclipse.metainfo.xml
       - install -Dm644 ../src/install/nix/redeclipse.desktop.am /app/share/applications/net.redeclipse.RedEclipse.desktop
