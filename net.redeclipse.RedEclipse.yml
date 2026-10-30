@@ -34,7 +34,7 @@ modules:
           type: anitya
           project-id: 8261
           stable-only: true
-          url-template: https://github.com/redeclipse/base/releases/download/v$version/redeclipse_$version_nix.tar.bz2
+          url-template: https://github.com/redeclipse/base/releases/download/v$version/redeclipse_${version}_nix.tar.bz2
           is-main-source: true
       - type: file
         path: net.redeclipse.RedEclipse.appdata.xml
