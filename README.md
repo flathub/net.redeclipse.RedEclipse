@@ -1,6 +1,6 @@
-## Running additional binaries
+## Running Red Eclipse server and genkey
 
-Apart from the game itself, additional Red Eclipse binaries can be launched via the following commands:
+The server and genkey binaries can be launched via the following commands:
 
 Server: `flatpak run --command=redeclipse_server net.redeclipse.RedEclipse`
 
